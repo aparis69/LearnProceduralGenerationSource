@@ -8,3 +8,8 @@ This is split in multiple parts:
 
 - [libs/](https://github.com/aparis69/LearnProceduralGenerationSource/blob/main/libs/): set of utility functions and library used in multiple examples.
 
+Most of the files named as "example_xx.js" can be simply included in a web page using:
+```
+<div class="threeJsCanvas" id="NameOfCanvasInJsFile"></div>
+<script type="module" src="example_xx.js"> </script>
+```
